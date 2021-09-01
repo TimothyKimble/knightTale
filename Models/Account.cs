@@ -1,3 +1,5 @@
+// NOTE This is the same setup for Node for creating AUTH0. All that is the same. 
+
 using System;
 using System.Collections.Generic;
 

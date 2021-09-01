@@ -6,6 +6,7 @@
 
    <ItemGroup>
     <PackageReference Include="CodeWorks.Auth0Provider" Version="1.0.3" />
+    <!-- NOTE DAPPER is the ORM that we use to talk to our MySQL Database. MySQLConnector lets us talk to it as well. It is a popular tool. -->
     <PackageReference Include="Dapper" Version="2.0.90" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.0" NoWarn="NU1605" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.0" NoWarn="NU1605" />
